@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CODING WEBSITE</title>
+	<style type="text/css">
+		.header1{
+			text-align: center;
+			font-family: 'Merriweather', serif;
+			color: #B4143D;
+		}
+		.header2{
+			text-align: center;
+			margin-left: 30px;
+			font-family: 'Acme', sans-serif;
+			color: #07700B;
+		}
+		.image{
+			float: right;
+			margin-right: 30px;
+			width: 100px;
+			height: 100px;
+		}
+		.link{
+			text-decoration: none;
+		}
+		.language{
+			margin-left: 30px;
+			font-family: 'Acme', sans-serif;
+			color: #079278;
+		}
+		.content{
+			margin-left: 50px;
+			margin-right: 250px;
+			font-family: 'Pacifico', cursive;
+			color: #38A60A;
+		}
+		hr{
+            border: dotted #EAF6F6;
+            width:4%;
+            border-width: 10px;
+            border-bottom: none;
+        }
+	</style>
+</head>
+<body background="backgroundimage.jpg">
+<h1 class="header1">CODE,COMPILE AND RUN</h1>
+<h2 class="header2">---Select and code in your own preferred Programming Languge----</h2>
+<a href="/Project/c.html"><img class="image" src="c.png"></a>
+<a class="link" href="/Project/c.html"><h2 class="language">C</h2></a>
+<h3 class="content">C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations.</h3>
+<hr>
+<br>
+<a href="/Project/c++.html"><img class="image" src="c++.png"></a>
+<a class="link" href="/Project/c++.html"><h2 class="language">C++</h2></a>
+<h3 class="content">C++ is a high-level, general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</h3>
+<hr>
+<br>
+<a href="/Project/java.html"><img class="image" src="java.png"></a>
+<a class="link" href="/Project/java.html"><h2 class="language">Java</h2></a>
+<h3 class="content">Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.</h3>
+<hr>
+<br>
+<a href="/Project/python.html"><img class="image" src="python.png"></a>
+<a class="link" href="/Project/python.html"><h2 class="language">Python</h2></a>
+<h3 class="content">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.</h3>
+<hr>
+<br>
+</body>
+</html>
